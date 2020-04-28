@@ -38,7 +38,7 @@ iframe{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     padding: 1rem;
-    width: 87rem;
+    width: 86rem;
 }
 
 .first, .second, .third, .fourth, .fifth {
@@ -91,7 +91,7 @@ iframe{
     background-color: rgb(250, 250, 250);
     margin-top: 1rem;
     padding: 1rem;
-    width: 87rem;
+    width: 85.5rem;
 }
 
 .stateonehead, .statetwohead, .firsthead, .secondhead, .thirdhead, .fourthhead, .fifthhead{
@@ -111,7 +111,7 @@ iframe{
     background-color: #CCEBE6;
     margin-top: 1rem;
     padding: 1rem;
-    width: 87rem;
+    width: 85.5rem;
 }
 
 .trigex{
@@ -126,7 +126,7 @@ iframe{
 
 .yellow {
     border: solid .2rem rgb(241, 232, 144);
-    width: 87rem;
+    width: 85.5rem;
     margin: 0 auto;
     padding: 1rem;
 }
