@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'LeagueSpartanVariable';
+    src: url(../../fonts/LeagueSpartanVariable.woff2) format('truetype'); 
+    font-weight: 200 900;
+}
+
+
+.read{
+    background-image:url(yellow.png) ;
+    background-position: right bottom;
+    background-size: 10rem 8rem;
+    background-repeat: no-repeat;
+    /* background-size: 50% auto; */
+    /* background-color: rgb(255, 243, 131);
+    background-size: 3rem ; */
+    font-family: "LeagueSpartanVariable";
+    font-weight: 450;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+    width: 10rem;
+    transition: background-size .8s;
+    transition-timing-function: ease-in-out;
+  /*   background-repeat: no-repeat; */
+/*     transition-duration: .4s; */
+/*     transition-timing-function: ease-in-out;
+ */
+    
+}
+
+p{
+    padding: .5rem;
+}
+
+.read:hover {
+    background-size: 8rem .8rem;
+    background-position: right bottom;
+    cursor: pointer;
+}
+ 
+
+
+/* div:hover{
+    background-color: white;
+    background-size: 3rem ;
+} */
+
