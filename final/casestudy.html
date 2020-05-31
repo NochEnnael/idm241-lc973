@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brit.Co Case Study</title>
+    <link rel="stylesheet" href="casestudy.css">
+</head>
+<body>
+
+<!--     <div class="hero"></div> -->
+
+    <img src="../beta/build/background.jpg" alt="hero" class="hero">
+
+  <header>Brit & Co Micro-Interaction Case Study</header>
+
+    <div class="one">
+
+        <h1>Overview</h1>
+
+        <p>
+            For this project, I created a fully functioning micro-interaction for the Brit.Co website. The Brit.Co website is an online media website that helps inspire and uplift females. This is a website that I frequently go to for inspiration and for small digital classes. I found that although it is a lovely website, there was user interface interaction that was missing. When hovering over articles, there was nothing that helped signal if it was clickable or not. In order to accomplish this, I created a micro interaction for the head article for the week/day on the website that reacts when a user hovers over it. In the end came out a fully functioning, micro interaction tailored to show the user that an article can be clicked on, as well as bring a sensation of calmness and joy through the micro interaction
+        </p>
+
+    </div>
+
+    <div class="two">
+            
+        <h1>Context and Challenge</h1>
+
+            <h2>Background</h2>
+
+            <p>
+                In this project, I wanted to redesign how the Brit.Co website brought attention to their articles for their users. This project took around 10 weeks to complete. It was broken up into three different parts. The first was creating my smallest micro interaction. The second was to create the micro interaction in which the small micro interaction would be placed into. The final micro interaction then incorporated the two together to create a whole cohesive piece, allowing the user to have a more interactive experience while hovering over the header image for the website. 
+            </p>
+
+            <h2>The Problem</h2>
+
+            <p>
+                The website that I decided to choose to improve on the micro interactions was on the Brit.co website. This is basically an online magazine that has articles on almost anything about life. The micro interaction that I saw that had the biggest problem was the header image or the featured article for the week. I wanted to create a micro interaction on it in order to grab attention more towards it instead of keeping it as a static image and link. 
+            </p>
+
+            <h2>The Goals</h2>
+
+            <p>
+                <ul>
+                    <li>
+                        Create functions micro interactions that match my visions 
+                    </li>
+                    <li>
+                        Creating fully developed micro interactions in Adobe Xd and then coding them out on my own webpage 
+                    </li>
+                    <li>
+                        Finding a way to either incorporate within own portfolio, or to just do the redesign of the website
+                    </li>
+                    <li>Allowing the micro interaction to give users a sense of joy and calmness as they hover over the article/image of their choice. </li>
+                    <li>Creating a fully responsive micro interaction</li>
+                </ul>
+            </p>
+    </div>
+
+    <div class="three">
+
+        <h1>Process and Insight</h1>
+
+        <h2>Color</h2>
+
+        <p>
+            Small micro interaction: Wanted to continue the consistency of the vibrant colors of the website, and took the yellow that they used. 
+
+            Medium Micro interaction: I wanted the outline of the micro interaction to match some part of the image in order for it to be a part of the micro interaction. With just the image, and no other color, it felt like the image was separate from everything else. I decided that by matching the outline of the image, it brings the entire micro interaction together. 
+
+        </p>
+
+        <h2>Wireframe/Design Process</h2>
+
+        <p>
+            <b>Small Micro Interaction: </b>  For this micro interaction, I wanted to create a way in which the user would be able to know that this element was something they could click onto. I didn’t want just the rectangle to turn from one size and snap to an underline. That was too direct, and I wanted to create something that would ease them into what was going to occur. I liked how the original website underlined the read more for their articles, but I didn’t like how it overlapped with the letters. I liked the off-centeredness of the outline, but wanted it to be actually underlining the words. It was a subtle, yet a big enough micro-interaction that catches the eye of the user.
+        </p>
+
+        <p>
+
+           <b>For the medium micro interaction</b> , I drew inspiration directly from how static the header image was. I didn’t like how if you hovered over it, you weren’t sure if it wasn article or if it was something that was there to look at. I decided that I wanted the user to HAVE to be drawn to what it was. I had the title inside a text box that is centered and closer to the bottom so more of the image was showing. As you hover over it, it allows the user to find out that there is more information about the article. What the person’s focus is now focused on is the text box, switching from the image. It now is a two column grid so the user can see the text and image side by side. 
+        </p>
+
+        <p>
+            <b>Large Micro Interaction: </b>For the large micro interaction, I decided to combine the two previous interactions together to create one cohesive piece. As the user hovers over the image with the overlaid text box, the Medium micro interaction is then initiated. On the left side where the text box is presented, we can now see that the small micro interaction is in line with the rest of the text. 
+    
+        </p>
+
+        <h2>Alpha Build Problems</h2>
+
+        <p>
+            1. The first was creating the micro-interaction itself. I wanted the size of the rectangle to size down and become slightly off center in order to underline that the “Read More” was actually a link and not a block of text surrounded in a yellow box. I tried to make the background of the div the desired yellow that I wanted, but quickly found out that if I tried to change the size of that, the div broke, and messed with the text inside. In order to create the micro-interaction I learned how to use the background-image property for CSS. From there, I made the background-image the color of the yellow that  I had desired, and upon the hover, the rectangle would change its width and height. I had the micro-interaction have an ease motion when the hover began.
+        </p>
+
+        <p>
+            2. My second problem was trying to bring the micro-interaction back to its original state without having it snap back to its original state. There was a lot of research that went into this. I tried figuring out how I could incorporate the keyframe element, but that ended up not working. What I learned was that I was using the transition element incorrectly. What I originally had was the transition element within the hover state instead of the original state. Then, instead of just leaving the transition alone with only the time duration, I now had to write in what the transition would be affecting, which was “background-size.” From there, the micro-interaction was smoothly working. The only small minor detail that I had was the movement of the micro-interaction because of the type of easing that I set it to. It eased into the micro-interaction slowly, but when the hover came off, it quickly went back to its original state. I wanted consistency to remain, which is where I change it to an ease-in-out.
+        </p>
+
+        <p>
+            3. Creating the overlay was one of the more complicated parts of the micro-interaction. I was unsure how to make one div overlap another div. Through the process of using the grid and the absolute positioning, I researched more into how to create the overlap, using the z-index element in CSS. 
+        </p>
+
+        <p>
+            Something interesting that I learned when creating the Alpha Build was that when you are creating the micro-interaction for something that should link to another page, it all comes down to the minute details. It was pointed out to me that the cursor also had to be changed from the arrow to the cursor that points like a finger. I found that very interesting that this small detail also signified this action that the link would be interactable. 
+        </p>
+
+        <h2>Beta Build Problems</h2>
+
+        <p>
+            1. The first problem I ran into was trying to format the picture of the back of the woman. Initially, the photo was an element in the html page. I went through many problems trying to transition the photo on the hover without making the image stretch. In order to get rid of the stretching, I created an empty div in the html page. From there, I used the CSS file to style the div tag. I made the background of the div into an image using the background-image element in CSS. From here, I was able to change the position and size of the background image before and after the hover. 
+        </p>
+
+        <p>
+            2. The second problem I ran into was trying to overlap the text box over the article’s image. This took up a majority of the time when coding the micro interaction. The first thing that I did was set the text box’s div to relative. I soon realized that by using relative, the parent div of the text box div was enlarged, as if the text box div was still at the bottom of the div where it originally would have been if the relative position was not initiated. I then realized that I should have been setting the position to absolute. This would get rid of the empty gap at the bottom of the div. After setting the position of the div to absolute and setting the background color to white, the position of textbox no would not move anyway on the hover. The next solution I tried to come up with is by using the grid display. Creating the first state to have the text box overlay on top of the image worked perfectly, However, when changing the way the grid was formatted on the hover, it wouldn’t transition the way that I wanted it to. After some research, I learned that the CSS grid doesn’t work well, or just does not transition/animate. Finally, I decided to use the background-image element in CSS for the textbook div. I set the background-image to a png of a white background. From there, I was able to change the size and position of the background image. 
+        </p>
+
+        <p>
+            One of the most informative parts of building the beta was learning that the grid element in CSS does not transition or animate. At first, it was discouraging after hours of formatting and trying to create the hover transition. However, I learned that this was a learning experience. Every mistake you make should be taken as an opportunity. I thought that I had spent all of this time when in the end the code that I had coded was wasted. However, I am happy that this occurred during the project, instead of learning about this for a future project where I might have indulged too much into the coding before it was too late. 
+        </p>
+
+        <p>
+            An interesting CSS element that I had learned was the outline-offset. When designing the micro interaction, I was not thinking about how I would have created the border inside of the image in code. When researching how to code this design element, I was surprised at how easy it was to have an inner border instead of having it outline the image. 
+        </p>
+
+
+    </div>
+
+    <div class="four">
+
+        <h1>The Solution</h1>
+
+        <div class="solution">
+
+            <a href="http://leannekchin.com/idm241-lc973/alpha/build/" target="_blank">Alpha Build </a>
+
+        </div>
+
+        <div class="solution">
+
+            <a href="http://leannekchin.com/idm241-lc973/beta/build/">Beta Build</a>
+
+        </div>
+
+
+        <div class="solution">
+            <a href="http://leannekchin.com/idm241-lc973/final/build/">Final Build</a>
+        </div>
+        
+
+        <h1>The Result</h1>
+
+        <p>
+
+            Overall, this was a great success!! All three micro interactions work seamlessly and are fully responsive. I achieved all of the goals that I had sought out to accomplish. I successfully developed my initial wireframes of how I wanted the micro interaction to look, and then coding it out using HTML and CSS. The given timeframe in order to complete all three of these micro interactions were a perfect amount to complete this, especially since this was my first time creating a micro-interaction. Throughout this process, I learned about the ability to bring feelings through simply a small micro-interaction. A micro-interaction helps transform a user’s experience when they are on a website, and that is what I aim to bring out from this micro-interaction. In addition to this, through my numerous trial-and-error moments throughout this project, I learned about the different restrictions that certain HTML and CSS elements present. If I were to do this project all over again, I don’t believe there is anything I would change about how I approached it. I understood from the start that I would have to know what my micro-interaction would look like before coding anything. If I didn’t have a clear vision of my design, then I understood that I would have a more difficult time in getting the project into reality. 
+
+        </p>
+
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'LeagueSpartanVariable';
+    src: url(../fonts/LeagueSpartanVariable.ttf) format('truetype'); 
+    font-weight: 200 900;
+}
+
+a:visited {
+    color:black;
+}
+
+
+.solution{
+    font-family: "LeagueSpartanVariable" ;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 20rem;
+    padding: 1rem;
+}
+
+.hero{
+/*     background-image: url(../beta/build/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    width: 100%;
+    margin: 0 auto;
+/*     height: 35rem; */
+}
+
+header {
+    font-size: 2.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: solid .2rem black;
+    width: 60%;
+}
+
+h1{
+    font-family: "LeagueSpartanVariable" ;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.6rem;
+    border-bottom: solid .4rem #FFF06A;
+    width: 30%;
+    padding-top: 2rem;
+}
+
+h2{
+    padding-top: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    font-family: "LeagueSpartanVariable" ;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    margin: 0 auto;
+    width: 70%;
+    padding: 2rem 0;
+}
+
+ul{
+    font-family: "LeagueSpartanVariable" ;
+    font-size: 1.3rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.two{
+    background-color: #CCEBE6;
+    margin-top: 2rem;
+}
+
+.four{
+    background-color: #FFD0D0;
+    margin-top: 2rem;
+}
+
+/* @media screen and (min-width: 1024px) {
+
+    header {
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: solid .2rem black;
+        width: 50rem;
+    }
+
+}
+ */

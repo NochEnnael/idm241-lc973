@@ -1,0 +1,365 @@
+@font-face {
+    font-family: 'LeagueSpartanVariable';
+    src: url(../../fonts/LeagueSpartanVariable.woff2) format('truetype'); 
+    font-weight: 200 900;
+}
+
+body{
+    margin-top: 5rem;
+    background-color: white;
+}
+
+
+
+.titlehead{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: .3rem;
+    padding-left: 1rem;
+    text-align: left;
+    color: black;
+}
+
+h2{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 0;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+h3{
+    color: gray;
+    font-family: 'LeagueSpartanVariable';
+    font-size: .5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.img{
+    background-image:url(../../beta/build/background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    outline: 5px solid #721F5F;
+    outline-offset: -1.2rem;
+    width: 80%;
+    height: 15rem; 
+    margin: 0 auto;
+    transition: .8s;
+    z-index: 1;
+} 
+
+.image{
+/*     display: grid; */
+    margin: 0 auto;
+}
+
+
+.textbox {
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    right: 0; 
+    background-image:url(../../beta/build/text.png);
+    background-size: 30rem 50rem ;
+    background-position: right bottom;
+    margin: 0 auto;
+    padding: 1%;
+    transition: .8s;
+    width: 40%; 
+    z-index: 2; 
+}
+
+.wrap{
+    text-align: center;
+    margin: 0 auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(254,227,214,1) 0%, rgba(254,206,205,1) 100%);
+
+}
+ 
+.wrap:hover{
+    cursor: pointer;
+}
+
+.wrap:hover .img {
+    background-position: 94% 60%;
+    background-size: 50%;
+    outline-offset: 0;
+    width: 100%;
+    transition: 1s; 
+}
+
+
+.wrap:hover .textbox {
+    top: 7.7rem;
+    right: 50%;
+    background-position: left;
+    padding-bottom: 0%;
+    width: 40%;
+   /*  transition: background-size 2s;  */
+    transition: 1s; 
+    transition-timing-function: ease-in-out;
+}
+
+
+.wrap:hover h3 {
+    display:block;
+}
+
+.wrap:hover .read{
+    display:block;
+}
+
+
+/* Here is the code for the read more */
+
+.read{
+    background-image:url(../../alpha/build/yellow.png) ;
+    background-position: right bottom;
+    background-size: 5rem 2rem;
+    background-repeat: no-repeat;
+    /* background-size: 50% auto; */
+    /* background-color: rgb(255, 243, 131);
+    background-size: 3rem ; */
+    font-family: "LeagueSpartanVariable";
+    font-weight: 450;
+    font-size: .5rem;
+    padding-left: 1rem;
+    text-align: center;
+    width: 5rem;
+    transition: background-size .8s;
+    transition-timing-function: ease-in-out;
+  /*   background-repeat: no-repeat; */
+/*     transition-duration: .4s; */
+/*     transition-timing-function: ease-in-out;
+ */
+    
+}
+
+p{
+    padding: .5rem;
+}
+
+.read:hover {
+    background-size: 4rem .5rem;
+    background-position: right bottom;
+    cursor: pointer;
+}
+ 
+
+
+
+@media screen and (min-width: 768px) {
+
+    .titlehead{
+        font-size: 2.5rem;
+        font-style: italic;
+        font-weight: 500;
+        margin-bottom: .3rem;
+        padding-left: 1rem;
+        text-align: left;
+        color: black;
+    }
+
+    h2{
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 0;
+        padding-left: 1rem;
+        text-align: left;
+    }
+    
+    h3{
+        color: gray;
+        font-family: 'LeagueSpartanVariable';
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        padding-left: 1rem;
+        text-align: left;
+    }
+
+    .textbox {
+        position: absolute;
+        top: 23rem;
+ 
+    }
+
+    .wrap:hover .textbox {
+        top: 10rem;
+        right: 50%;
+        background-position: left;
+        padding-bottom: 3%;
+        width: 40%;
+       /*  transition: background-size 2s;  */
+        transition: 1s; 
+        transition-timing-function: ease-in-out;
+    }
+
+    .img{
+        background-image:url(../../beta/build/background.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        outline: 5px solid #721F5F;
+        outline-offset: -1.2rem;
+        width: 80%;
+        height: 30rem; 
+        margin: 0 auto;
+        transition: .8s;
+        z-index: 1;
+    } 
+
+    .read{
+        background-image:url(../../alpha/build/yellow.png) ;
+        background-position: right bottom;
+        background-size: 7rem 8rem;
+        background-repeat: no-repeat;
+        /* background-size: 50% auto; */
+        /* background-color: rgb(255, 243, 131);
+        background-size: 3rem ; */
+        font-family: "LeagueSpartanVariable";
+        font-weight: 450;
+        font-size: 1rem;
+        padding-left: 1rem;
+        text-align: center;
+        width: 7rem;
+        transition: background-size .8s;
+        transition-timing-function: ease-in-out;
+      /*   background-repeat: no-repeat; */
+    /*     transition-duration: .4s; */
+    /*     transition-timing-function: ease-in-out;
+     */
+        
+    }
+
+    .read:hover {
+        background-size: 5rem .8rem;
+        background-position: right bottom;
+        cursor: pointer;
+    }
+
+
+    .wrap:hover .img {
+        background-position: 94% 50%;
+        background-size: 50%;
+        outline-offset: 0;
+        width: 100%;
+        transition: 1s; 
+    }
+    
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .titlehead{
+        font-size: 3.5rem;
+        font-style: italic;
+        font-weight: 500;
+        margin-bottom: .3rem;
+        padding-left: 1rem;
+        text-align: left;
+        color: black;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 0;
+        padding-left: 1rem;
+        text-align: left;
+    }
+    
+    h3{
+        color: gray;
+        font-family: 'LeagueSpartanVariable';
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        padding-left: 1rem;
+        text-align: left;
+    }
+
+
+    .wrap:hover .textbox {
+        top: 9rem;
+        right: 50%;
+        background-position: left;
+        padding-bottom: 7%;
+        width: 40%;
+       /*  transition: background-size 2s;  */
+        transition: 1s; 
+        transition-timing-function: ease-in-out;
+    }
+
+    .textbox {
+        position: absolute;
+        top: 25rem;
+        left: 0;
+        right: 0; 
+    
+    }
+
+    .img{
+        background-image:url(../../beta/build/background.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        outline: 5px solid #721F5F;
+        outline-offset: -1.2rem;
+        width: 80%;
+        height: 37rem; 
+        margin: 0 auto;
+        transition: .8s;
+        z-index: 1;
+    } 
+
+
+    .wrap:hover .img {
+        background-position: 94% 50%;
+        background-size: 50%;
+        outline-offset: 0;
+        width: 100%;
+        transition: 1s; 
+    }
+
+    .read{
+        background-image:url(../../alpha/build/yellow.png) ;
+        background-position: right bottom;
+        background-size: 10rem 8rem;
+        background-repeat: no-repeat;
+        /* background-size: 50% auto; */
+        /* background-color: rgb(255, 243, 131);
+        background-size: 3rem ; */
+        font-family: "LeagueSpartanVariable";
+        font-weight: 450;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        text-align: center;
+        width: 10rem;
+        transition: background-size .8s;
+        transition-timing-function: ease-in-out;
+      /*   background-repeat: no-repeat; */
+    /*     transition-duration: .4s; */
+    /*     transition-timing-function: ease-in-out;
+     */
+        
+    }
+
+
+    .read:hover {
+        background-size: 8rem .8rem;
+        background-position: right bottom;
+        cursor: pointer;
+    }
+
+
+    
+}
