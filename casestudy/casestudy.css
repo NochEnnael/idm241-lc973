@@ -8,6 +8,28 @@ a:visited {
     color:black;
 }
 
+.alpha{
+    display: grid;
+    grid-template-columns: auto;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+#box, #line {
+width: 20rem;
+}
+
+
+
+img{
+    width: 20rem;
+}
+
+.wire {
+    width: 20rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
 
 .solution{
     font-family: "LeagueSpartanVariable" ;
@@ -28,7 +50,7 @@ a:visited {
 }
 
 header {
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-bottom: solid .2rem black;
@@ -40,7 +62,7 @@ h1{
     margin: 0 auto;
     text-align: center;
     font-weight: 600;
-    font-size: 2.6rem;
+    font-size: 1.7rem;
     border-bottom: solid .4rem #FFF06A;
     width: 30%;
     padding-top: 2rem;
@@ -91,3 +113,75 @@ ul{
 
 }
  */
+
+ @media screen and (min-width: 768px) {
+
+    img{
+        width: 35rem;
+    }
+    
+    .wire {
+        width: 35rem;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .alpha{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+        width: 50rem;
+    }
+    
+    #box, #line {
+    width: 20rem;
+    }
+
+    header {
+        font-size: 2.1rem;
+ 
+    }
+    
+    h1{
+        font-size: 2rem;
+    
+    }
+    
+
+ }
+
+ @media screen and (min-width: 1024px) {
+
+
+    img{
+        width: 50rem;
+    }
+    
+    .wire {
+        width: 50rem;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .alpha{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+        width: 50rem;
+    }
+    
+    #box, #line {
+    width: 20rem;
+    }
+
+    header {
+        font-size: 2.7rem;
+ 
+    }
+
+    h1{
+        font-size: 2.7rem;
+    }
+    
+
+ }
