@@ -35,7 +35,7 @@ h3{
     font-family: 'LeagueSpartanVariable';
     font-size: .5rem;
     font-weight: 400;
-    margin-top: 1rem;
+    margin-top: .8rem;
     padding-left: 1rem;
     text-align: left;
 }
@@ -96,7 +96,7 @@ h3{
 
 
 .wrap:hover .textbox {
-    top: 7.7rem;
+    top: 8rem;
     right: 50%;
     background-position: left;
     padding-bottom: 0%;
@@ -128,7 +128,7 @@ h3{
     background-size: 3rem ; */
     font-family: "LeagueSpartanVariable";
     font-weight: 450;
-    font-size: .5rem;
+    font-size: .4rem;
     padding-left: 1rem;
     text-align: center;
     width: 5rem;
@@ -192,10 +192,10 @@ p{
     }
 
     .wrap:hover .textbox {
-        top: 10rem;
+        top: 9.7rem;
         right: 50%;
         background-position: left;
-        padding-bottom: 3%;
+        padding-bottom: 2.8%;
         width: 40%;
        /*  transition: background-size 2s;  */
         transition: 1s; 
@@ -290,10 +290,10 @@ p{
 
 
     .wrap:hover .textbox {
-        top: 9rem;
+        top: 8.8rem;
         right: 50%;
         background-position: left;
-        padding-bottom: 7%;
+        padding-bottom: 7.8%;
         width: 40%;
        /*  transition: background-size 2s;  */
         transition: 1s; 
